@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { WebApp } from '@twa-dev/sdk';
+import WebApp from '@twa-dev/sdk';
 
 const colors = ['bg-red-500', 'bg-blue-500', 'bg-green-500', 'bg-yellow-500', 'bg-purple-500'];
 const selectedColor = ref('');

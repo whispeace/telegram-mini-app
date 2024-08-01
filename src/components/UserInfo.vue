@@ -10,13 +10,15 @@
 </template>
 
 <script setup lang="ts">
-import { WebApp } from '@twa-dev/sdk';
+import WebApp from '@twa-dev/sdk';
 
 const requestLocation = () => {
-  WebApp.requestLocation((location) => {
-    if (location) {
-      WebApp.showAlert(`Latitude: ${location.latitude}, Longitude: ${location.longitude}`);
-    }
-  });
+  console.log(WebApp);
+  
+  // WebApp.().then((location) => {
+  //   if (location) {
+  //     WebApp.showAlert(`Latitude: ${location.latitude}, Longitude: ${location.longitude}`);
+  //   }
+  // });
 };
 </script>

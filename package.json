@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@twa-dev/types": "^7.0.0",
     "pinia": "^2.2.0",
     "vue": "^3.4.35",
     "vue-router": "^4.4.1"

@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import { WebApp } from '@twa-dev/sdk';
+import WebApp from '@twa-dev/sdk';
 import UserInfo from '@/components/UserInfo.vue';
 import ColorPicker from '@/components/ColorPicker.vue';
 
